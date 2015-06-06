@@ -1,4 +1,10 @@
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
@@ -17,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .clearfix:after{
 	content:"";
-	display: talbe;
+	display: table;
 	clear: both;
 }
 
@@ -120,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .whatido__skill-list:after{
 	content:"";
-	display: talbe;
+	display: table;
 	clear: both;
 }
 
@@ -147,4 +153,49 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../img/skill-product.png);
   background-repeat: no-repeat;
   background-position: center top;
+}
+.education-experience__list{
+	margin: 0;
+	padding: 0;
+}
+.education-experience__list li{
+	list-style: none;
+	margin-bottom: 32px;
+	overflow: hidden;
+}
+.education-experience__list div{
+	overflow: hidden;
+}
+.education-experience__list img{
+	width: 180px;
+	float: left;
+	margin-right: 40px;
+}
+
+
+.photos__list{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.photos__list li{
+	display: block;
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.photos__list li img{
+	width: 100%;
+}
+
+.get-in-touch__list{
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.get-in-touch__list li{
+	list-style: none;
+	float: left;
 }
